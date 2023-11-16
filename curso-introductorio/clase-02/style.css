@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(128, 128, 128, 0.511);
+    font-size: 35px;
+}
+
+h2.p-title {
+    color: purple;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li#blue {
+    color: blue;
+}
+li#green {
+    color: green;
+}
+li#yellow {
+    color: yellow;
+}
+li#red {
+    color: red;
+}
+li#orange {
+    color: orange;
+}
+
+#box-model {
+    border: 2px solid black;
+    padding: 2px;
+    margin: 4px;
+}
+
+button#hover:hover {
+    background-color: blue;
+}
+
+button#active:active {
+    background-color: red;
+}
+
+input#focus:focus {
+    background-color: yellow;
+}
+
+h3.pseudo-title {
+    margin: 5px;
+}
+
+div#div-porcentaje {
+    width: 50%;
+    background-color: red;
+}
+
+div#div-rem {
+    background-color: blue;
+    font-size: 2rem;
+}
+
+div#div-em {
+    background-color: yellow;
+    font-size: 1em;
+}

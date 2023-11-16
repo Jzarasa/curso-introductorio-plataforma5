@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255 255 255 / .5S);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    padding: 20px 30px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+
+}
+button {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #212121;
+    color: white;
+    padding: 1em 2em;
+    box-shadow: 13px 13px 10px #1c1c1c,
+                -13px -13px 10px #262626;
+   }
+   
+   button:hover {
+    box-shadow: #000;
+   }
+   
+
+   

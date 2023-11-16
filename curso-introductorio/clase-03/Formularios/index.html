@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Clase-3 Formularios</h1>
+    
+    <div id="form">
+        <h2>Formulario</h2>
+        <form action="" method="POST">
+            <label>Nombre:
+                <input type="text" name="nombre" placeholder="Juan">
+            </label>
+            <br>
+            <label>Email:
+                <input type="email" name="email" placeholder="mail@mail.com">
+            </label>
+            <br>
+            <label>Password:
+                <input type="password" name="password" placeholder="*****">
+            </label>
+            <br>
+            <label>Edad:
+                <input type="number" name="edad" placeholder="31">
+            </label>
+            <br>
+            <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Comentarios"></textarea>
+            <br>
+            <input type="file">
+            <br>
+            <input type="submit" value="Enviar">
+            <br>
+            <label for="">
+                <select name="country">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                </select>
+            </label>
+            <br>
+            <label for="">Ma;ana
+                <input type="radio" name="turno" value="ma;ana">
+            </label>
+            <label for="">Tarde
+                <input type="radio" name="turno" value="tarde">
+            </label>
+            <label for="">Noche
+                <input type="radio" name="turno" value="noche">
+            </label>
+        </form>
+    </div>
+    
+</body>
+</html>
